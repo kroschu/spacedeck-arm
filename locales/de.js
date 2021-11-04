@@ -90,7 +90,7 @@
 	"confirmation_sent": "Електронний лист надіслано",
 	"folder_filter": "Фільтр",
 	"sort_by": "Сортувати за",
-	"last_modified": "Останні змінени",
+	"last_modified": "Змінено останнім",
 	"last_opened": "Останнє відкрите",
 	"title": "Назва",
 	"edit_team": "Редагувати склад команди",
