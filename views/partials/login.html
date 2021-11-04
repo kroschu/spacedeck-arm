@@ -7,6 +7,20 @@
     <a v-if="active_view != 'login'" class="btn btn-md btn-dark btn-round" href="/login"><%= __("login") %></a>
     <a v-if="active_view != 'signup'" class="btn btn-md btn-dark btn-round" href="/signup"><%= __("signup") %></a>
   </div>
+<script> 
+    window.intergramId = "1610918068";
+    window.intergramCustomizations = {
+        mainColor: "#474747",
+        titleClosed: ' Тебе допомога?',
+        titleOpen: 'Надішліть запиь звідси',
+        introMessage: 'Це спосіб блискавично швидко зв’язатися з автором прпроекту. Напишіть повідомлення внизу і натисніть Enter. Відповім якомога швидше.',
+        autoResponse: 'Я вже отримав повідомлення. Де б я не був. Читаю його...',
+        autoNoResponse: 'Секунду, заждіть ... ' + 'Ще трооошечки ...',
+        alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
+    };
+    window.intergramServer = "https://krotel.treba.ml"
+</script>
+<script id="intergram" type="text/javascript" src="https://krotel.treba.ml/js/widget.js"></script>
 </header>
 
 <div id="account-forms"
@@ -17,7 +31,7 @@
   <div id="login" v-bind:class="{active : active_view == 'login'}">
     <div class="content">
       <form v-on:submit="login_submit(user_forms_email, login_password, $event)">
-        <h3>Login</h3>
+        <h3>Авторизація</h3>
 
         <div class="tight">
           <div class="form-group">

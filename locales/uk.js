@@ -193,7 +193,7 @@
 	"tool_diamond": "Алмаз",
 	"tool_bubble": "Бульбашки",
 	"tool_cloud": "Хмара",
-	"tool_burst": "Серія",
+	"tool_burst": "Багатокутник",
 	"tool_star": "Зірка",
 	"tool_heart": "Серце",
 	"tool_scribble": "Напис",
