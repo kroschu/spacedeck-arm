@@ -40,8 +40,8 @@
         </div>
 
         <button type="submit" class="btn btn-dark btn-block">
-          <span v-show="!loading_user">Login</span>
-          <span v-show="loading_user">Logging in…</span>
+          <span v-show="!loading_user">Надіслати</span>
+          <span v-show="loading_user">Заходимо…</span>
         </button>
 
         <div class="center alert alert-danger" v-if="login_error">{{login_error}}</div>
