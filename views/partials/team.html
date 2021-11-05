@@ -2,11 +2,10 @@
 
   <a href="/spaces" class="btn btn-round btn-icon btn-stroke-darken btn-md pull-right" style="position:absolute;top:30px;right:30px"><span class="icon icon-cross-0"></span></a>
 
-  <h4>Spacedeck Team Management</h4>
+  <h4>Склад учасників команди розробки візуалізації</h4>
 
   <div v-if="!user.team" class="dialog-section text-left">
-    You are not in a team yet. Please upgrade first.
-  </div>
+    Ви ще не в  команді розробки цієї візуалізації
 
   <div v-if="user.team">
     <div class="dialog-section">
@@ -37,7 +36,7 @@
       <h4><%=__("members")%></h4>
 
       <p>
-        New members will get an invitation email. After the invitation was used, the member is active. The number of active members in your team will affect your monthly charge.
+        Нові учасники отримають електронний лист із запрошенням.  Після того, як запрошення було використано, учасник активний.  
       </p>
 
       <div class="input-group org-add-form">
